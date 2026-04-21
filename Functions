@@ -5,3 +5,31 @@ def days_to_units():
     print(f"50 days are {50 * calculations_to_units} {name_of_units }") 
 
 days_to_units()
+
+
+// OUTPUT
+
+50 days are 1200 hours
+
+// MORE EFFICIENCY
+
+calculations_to_units = 24
+name_of_units = "hours"
+
+def days_to_units(num_of_days):
+    
+    """Convert days into hours."""
+
+    print(f"{num_of_days} days are {num_of_days * calculations_to_units} {name_of_units}")
+
+days_to_units(10)
+days_to_units(100)
+days_to_units(50)
+
+
+// OUTPUT
+
+10 days are 240 hours
+100 days are 2400 hours
+50 days are 1200 hours
+
