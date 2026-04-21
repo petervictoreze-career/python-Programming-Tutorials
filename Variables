@@ -1,14 +1,45 @@
-calculations_to_seconds = 30 * 24 * 60 * 60
+24 hours in a day
+60 minutes in an hour
+60 seconds in a minute
+
+
+
+
+// CALCULATING SECONDS
+
+calculations_to_seconds = 24 * 60 * 60
 name_of_units = "seconds"
 
-print(f"50 days are {50 * calculations_to_seconds} {name_of_units }") 
-print(f"100 days are {100 * calculations_to_seconds} {name_of_units }")  
-print(f"150 days are {150 * calculations_to_seconds} {name_of_units }")  
-print(f"200 days are {200 * calculations_to_seconds} {name_of_units }")    
+print(f"50 days are {50 * calculations_to_seconds} {name_of_units}") 
+print(f"100 days are {100 * calculations_to_seconds} {name_of_units}")  
+print(f"150 days are {150 * calculations_to_seconds} {name_of_units}")  
+print(f"200 days are {200 * calculations_to_seconds} {name_of_units}")    
 
 
 // OUTPUT
-50 days are 129600000 seconds
-100 days are 259200000 seconds
-150 days are 388800000 seconds
-200 days are 518400000 seconds
+
+50 days are 4320000 seconds
+100 days are 8640000 seconds
+150 days are 12960000 seconds
+200 days are 17280000 seconds
+
+
+
+
+
+// CALCULATING HOURS
+
+calculations_to_units = 24
+name_of_units = "hours"
+
+print(f"50 days are {50 * calculations_to_units} {name_of_units }") 
+print(f"100 days are {100 * calculations_to_units} {name_of_units }")  
+print(f"150 days are {150 * calculations_to_units} {name_of_units }")  
+print(f"200 days are {200 * calculations_to_units} {name_of_units }")    
+
+// OUTPUT
+
+50 days are 1200 hours
+100 days are 2400 hours
+150 days are 3600 hours
+200 days are 4800 hours
