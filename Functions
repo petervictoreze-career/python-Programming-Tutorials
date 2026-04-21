@@ -7,11 +7,11 @@ def days_to_units():
 days_to_units()
 
 
-// OUTPUT
+# OUTPUT
 
 50 days are 1200 hours
 
-// MORE EFFICIENCY
+# MORE EFFICIENCY
 
 calculations_to_units = 24
 name_of_units = "hours"
@@ -27,7 +27,7 @@ days_to_units(100)
 days_to_units(50)
 
 
-// OUTPUT
+# OUTPUT
 
 10 days are 240 hours
 100 days are 2400 hours
