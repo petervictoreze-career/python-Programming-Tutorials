@@ -1,0 +1,7 @@
+calculations_to_units = 24
+name_of_units = "hours"
+
+def days_to_units():
+    print(f"50 days are {50 * calculations_to_units} {name_of_units }") 
+
+days_to_units()
