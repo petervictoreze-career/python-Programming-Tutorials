@@ -33,3 +33,28 @@ days_to_units(50)
 100 days are 2400 hours
 50 days are 1200 hours
 
+# OTHER EXAMPLE
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+
+print(f"Hello {name}, you are {age} years old")
+
+#OTHER EXAMPLE 
+
+name = input("Enter your name: ")
+age = input("Enter age: ")
+
+print("Hello " + name + ". " + "You are " + age + " years old.")
+
+
+OTHER EXAMPLE
+
+name = input("Enter your name: ")
+age = input("Enter age: ")
+
+print("Hello {}. You are {} years old.".format(name, age))
+
+
+
+
