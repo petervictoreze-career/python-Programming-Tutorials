@@ -69,7 +69,30 @@ def days_to_units(num_of_days):
 
 user_input = input("Enter number of days: ")
 
-days_to_units(int(user_input))
+days_to_units(int(user_input
+
+
+# OTHER EXAMPLE 
+
+#variable declaration
+
+calculation_of_units = 24
+name_of_units = "hours"
+
+# unit calculation function
+
+def days_to_units(num_of_days, custom_message):
+  print(f"{custom_message}: {num_of_days} days are {calculation_of_units * num_of_days}  {name_of_units}")
+
+user_input = input("Enter number of days: ")
+
+days_to_units(
+    num_of_days=int(user_input),
+    custom_message="WOW!"
+)
+
+
+
 
 
 
