@@ -1,0 +1,33 @@
+#variable declration
+
+calculation_of_days = 24
+name_of_unit = "hours"
+
+# declaration and calculation  of function units
+def days_to_units(custom_message,number_of_days):
+
+    # if condition statement
+
+    if number_of_days > 0:
+
+        return f"{custom_message} {number_of_days} days are {number_of_days * calculation_of_days } {name_of_unit}"
+    
+    else:
+        return "You entered a negative value!"
+
+
+# user input 
+
+user_input = input("Enter number of days: \n")
+user_input_number = int(user_input)
+
+# function calling
+
+
+calculated_value = days_to_units ("Motivation: ", user_input_number)
+print(calculated_value)
+
+
+
+
+
