@@ -111,5 +111,41 @@ calculated_input = multi_days_converter ("Focus: ", user_input_number)
 print(calculated_input)
 
 
+# Organized Code
+
+
+calculation_of_days = 24
+calculation_of_units = "hour"
+
+#function declaration
+def multi_days_converter (custom_message, number_of_days):
+  if number_of_days > 0:
+     return f"{custom_message} {number_of_days} days are {number_of_days * calculation_of_days} {calculation_of_units}"
+  
+  elif number_of_days == 0:
+     return "you enetered a 0, please enter a valid number"
+     
+  else:
+     return "Invalid number of days"
+  
+
+  #validate and execute
+def validate_and_execute():
+     if user_input.isdigit():
+        user_input_number = int(user_input)
+        calculated_input = multi_days_converter ("Focus: ", user_input_number)
+        print(calculated_input)
+     else: 
+        print("Hey User, your input is mot valid!")  
+  
+
+  #user input
+user_input = input("enter days repeated by comma:  \n")
+#calling function
+validate_and_execute()
+
+
+
+
 
 
