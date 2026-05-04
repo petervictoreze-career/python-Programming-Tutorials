@@ -228,9 +228,49 @@ while True:
 
 
 
+# Added Exit
+
+calculated_number_of_days = 24
+calculated_unit = "Hours" 
+
+# fuction declaration
+def multi_days_calculation (custom_message, number_of_days):
+    return f"{custom_message}{number_of_days} days are {number_of_days * calculated_number_of_days}{calculated_unit}"
+
+#Validate and Execute
+def validate_and_execute():
+  
+    try: 
+      user_input_number = int(user_input)
+
+      if user_input_number > 0:
+        calculated_input = multi_days_calculation ("FOCUS: ", user_input_number)
+        print(calculated_input)
+
+      elif user_input_number == 0:
+        print("You entered 0, Please enter a valid number \n")
+
+      elif user_input_number < 0:
+        print("You entered a nagative number")
 
 
+    except ValueError:
+        print("Invalid number, TRY AGAIN!")
 
+#Exit 
+
+user_input = ""
+while user_input != "exit":
+   # User Input 
+  user_input = input("Enter number of days \n")
+  
+ #Exit Condition
+  if user_input == "exit":
+    print("You Exited")
+    break 
+  
+# Function Calling   
+  validate_and_execute()
 
 
 
